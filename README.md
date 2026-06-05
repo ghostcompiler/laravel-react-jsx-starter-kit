@@ -41,7 +41,7 @@ This starter kit combines Laravel’s backend power with React’s component-dri
 ### Laravel Installer (Recommended)
 
 ```bash
-laravel new my-app --github=ghostcompiler/laravel-react-jsx-starter-kit
+laravel new my-app --using=ghostcompiler/laravel-react-jsx-starter-kit
 ```
 
 ### Composer Create Project

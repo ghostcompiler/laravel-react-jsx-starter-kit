@@ -2,9 +2,7 @@
  * Auth type definitions used by chisel feature toggles.
  */
 
-/* @chisel-2fa */
 /** @typedef {{ two_factor_enabled?: boolean }} TwoFactorUserFields */
-/* @end-chisel-2fa */
 
 /* @chisel-passkeys */
 /**
@@ -17,7 +15,5 @@
  */
 /* @end-chisel-passkeys */
 
-/* @chisel-2fa */
 /** @typedef {{ svg: string, url: string }} TwoFactorSetupData */
 /** @typedef {{ secretKey: string }} TwoFactorSecretKey */
-/* @end-chisel-2fa */

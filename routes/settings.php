@@ -2,9 +2,7 @@
 
 use App\Http\Controllers\Settings\ProfileController;
 use App\Http\Controllers\Settings\SecurityController;
-/* @chisel-password-confirmation */
 use Illuminate\Auth\Middleware\RequirePassword;
-/* @end-chisel-password-confirmation */
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(['auth'])->group(function () {
@@ -18,9 +16,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::delete('settings/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     Route::get('settings/security', [SecurityController::class, 'edit'])
-        /* @chisel-password-confirmation */
         ->middleware(RequirePassword::class)
-        /* @end-chisel-password-confirmation */
         ->name('security.edit');
 
     Route::put('settings/password', [SecurityController::class, 'update'])
