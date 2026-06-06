@@ -150,7 +150,3 @@ https://github.com/ghostcompiler/laravel-react-jsx-starter-kit
 MIT License
 
 ---
-
-<p align="center">
-Built with ❤️ by Ghost Compiler
-</p>
