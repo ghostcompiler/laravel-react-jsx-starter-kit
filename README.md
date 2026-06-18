@@ -9,6 +9,13 @@
   <img src="https://img.shields.io/badge/Built%20By-Ghost%20Compiler-0F172A?style=for-the-badge" alt="Ghost Compiler">
 </p>
 
+<p align="center">
+    <img src="https://img.shields.io/github/stars/ghostcompiler/laravel-react-jsx-starter-kit
+?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/packagist/dt/ghostcompiler/laravel-react-jsx-starter-kit
+?style=for-the-badge&logo=packagist" />
+</p>
+
 # Laravel React JSX Starter Kit
 
 A modern Laravel + React JSX starter kit that recreates Laravel’s React starter architecture using clean JSX instead of TypeScript.
